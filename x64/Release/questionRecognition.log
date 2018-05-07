@@ -1,0 +1,754 @@
+﻿  main.cpp
+D:\caffe-windows-ms\include\caffe/util/io.hpp(53): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+D:\caffe-windows-ms\windows\thirdparty\OpenCV\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\caffe-windows-ms\windows\thirdparty\OpenCV\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\caffe-windows-ms\windows\thirdparty\OpenCV\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\caffe-windows-ms\windows\thirdparty\OpenCV\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+main.cpp(106): warning C4305: “初始化”: 从“double”到“float”截断
+d:\vs2013\questionrecognition\questionrecognition\head.h(16): warning C4661: “void caffe::InputLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/input_layer.hpp(23): note: 参见“caffe::InputLayer<float>::LayerSetUp”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(16): warning C4661: “void caffe::InputLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/input_layer.hpp(23): note: 参见“caffe::InputLayer<double>::LayerSetUp”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(17): warning C4661: “void caffe::InnerProductLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/inner_product_layer.hpp(23): note: 参见“caffe::InnerProductLayer<float>::LayerSetUp”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(17): warning C4661: “void caffe::InnerProductLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/inner_product_layer.hpp(25): note: 参见“caffe::InnerProductLayer<float>::Reshape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(17): warning C4661: “void caffe::InnerProductLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/inner_product_layer.hpp(33): note: 参见“caffe::InnerProductLayer<float>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(17): warning C4661: “void caffe::InnerProductLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/inner_product_layer.hpp(35): note: 参见“caffe::InnerProductLayer<float>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(17): warning C4661: “void caffe::InnerProductLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/inner_product_layer.hpp(37): note: 参见“caffe::InnerProductLayer<float>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(17): warning C4661: “void caffe::InnerProductLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/inner_product_layer.hpp(39): note: 参见“caffe::InnerProductLayer<float>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(17): warning C4661: “void caffe::InnerProductLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/inner_product_layer.hpp(23): note: 参见“caffe::InnerProductLayer<double>::LayerSetUp”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(17): warning C4661: “void caffe::InnerProductLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/inner_product_layer.hpp(25): note: 参见“caffe::InnerProductLayer<double>::Reshape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(17): warning C4661: “void caffe::InnerProductLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/inner_product_layer.hpp(33): note: 参见“caffe::InnerProductLayer<double>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(17): warning C4661: “void caffe::InnerProductLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/inner_product_layer.hpp(35): note: 参见“caffe::InnerProductLayer<double>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(17): warning C4661: “void caffe::InnerProductLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/inner_product_layer.hpp(37): note: 参见“caffe::InnerProductLayer<double>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(17): warning C4661: “void caffe::InnerProductLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/inner_product_layer.hpp(39): note: 参见“caffe::InnerProductLayer<double>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(18): warning C4661: “void caffe::DropoutLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/dropout_layer.hpp(36): note: 参见“caffe::DropoutLayer<float>::LayerSetUp”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(18): warning C4661: “void caffe::DropoutLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/dropout_layer.hpp(38): note: 参见“caffe::DropoutLayer<float>::Reshape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(18): warning C4661: “void caffe::DropoutLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/dropout_layer.hpp(60): note: 参见“caffe::DropoutLayer<float>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(18): warning C4661: “void caffe::DropoutLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/dropout_layer.hpp(62): note: 参见“caffe::DropoutLayer<float>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(18): warning C4661: “void caffe::DropoutLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/dropout_layer.hpp(64): note: 参见“caffe::DropoutLayer<float>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(18): warning C4661: “void caffe::DropoutLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/dropout_layer.hpp(66): note: 参见“caffe::DropoutLayer<float>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(18): warning C4661: “void caffe::DropoutLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/dropout_layer.hpp(36): note: 参见“caffe::DropoutLayer<double>::LayerSetUp”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(18): warning C4661: “void caffe::DropoutLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/dropout_layer.hpp(38): note: 参见“caffe::DropoutLayer<double>::Reshape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(18): warning C4661: “void caffe::DropoutLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/dropout_layer.hpp(60): note: 参见“caffe::DropoutLayer<double>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(18): warning C4661: “void caffe::DropoutLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/dropout_layer.hpp(62): note: 参见“caffe::DropoutLayer<double>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(18): warning C4661: “void caffe::DropoutLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/dropout_layer.hpp(64): note: 参见“caffe::DropoutLayer<double>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(18): warning C4661: “void caffe::DropoutLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/dropout_layer.hpp(66): note: 参见“caffe::DropoutLayer<double>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(19): warning C4661: “void caffe::ConvolutionLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/conv_layer.hpp(70): note: 参见“caffe::ConvolutionLayer<float>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(19): warning C4661: “void caffe::ConvolutionLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/conv_layer.hpp(72): note: 参见“caffe::ConvolutionLayer<float>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(19): warning C4661: “void caffe::ConvolutionLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/conv_layer.hpp(74): note: 参见“caffe::ConvolutionLayer<float>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(19): warning C4661: “void caffe::ConvolutionLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/conv_layer.hpp(76): note: 参见“caffe::ConvolutionLayer<float>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(19): warning C4661: “void caffe::ConvolutionLayer<float>::compute_output_shape(void)”: 没有为显式模板实例化请求提供适当的定义
+  D:\caffe-windows-ms\include\caffe/layers/conv_layer.hpp(79): note: 参见“caffe::ConvolutionLayer<float>::compute_output_shape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(19): warning C4661: “void caffe::ConvolutionLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/conv_layer.hpp(70): note: 参见“caffe::ConvolutionLayer<double>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(19): warning C4661: “void caffe::ConvolutionLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/conv_layer.hpp(72): note: 参见“caffe::ConvolutionLayer<double>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(19): warning C4661: “void caffe::ConvolutionLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/conv_layer.hpp(74): note: 参见“caffe::ConvolutionLayer<double>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(19): warning C4661: “void caffe::ConvolutionLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/conv_layer.hpp(76): note: 参见“caffe::ConvolutionLayer<double>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(19): warning C4661: “void caffe::ConvolutionLayer<double>::compute_output_shape(void)”: 没有为显式模板实例化请求提供适当的定义
+  D:\caffe-windows-ms\include\caffe/layers/conv_layer.hpp(79): note: 参见“caffe::ConvolutionLayer<double>::compute_output_shape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(21): warning C4661: “void caffe::ReLULayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/relu_layer.hpp(44): note: 参见“caffe::ReLULayer<float>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(21): warning C4661: “void caffe::ReLULayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/relu_layer.hpp(46): note: 参见“caffe::ReLULayer<float>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(21): warning C4661: “void caffe::ReLULayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/relu_layer.hpp(77): note: 参见“caffe::ReLULayer<float>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(21): warning C4661: “void caffe::ReLULayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/relu_layer.hpp(79): note: 参见“caffe::ReLULayer<float>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(21): warning C4661: “void caffe::ReLULayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/relu_layer.hpp(44): note: 参见“caffe::ReLULayer<double>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(21): warning C4661: “void caffe::ReLULayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/relu_layer.hpp(46): note: 参见“caffe::ReLULayer<double>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(21): warning C4661: “void caffe::ReLULayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/relu_layer.hpp(77): note: 参见“caffe::ReLULayer<double>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(21): warning C4661: “void caffe::ReLULayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/relu_layer.hpp(79): note: 参见“caffe::ReLULayer<double>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(25): note: 参见“caffe::PoolingLayer<float>::LayerSetUp”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(27): note: 参见“caffe::PoolingLayer<float>::Reshape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(41): note: 参见“caffe::PoolingLayer<float>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(43): note: 参见“caffe::PoolingLayer<float>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(45): note: 参见“caffe::PoolingLayer<float>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(47): note: 参见“caffe::PoolingLayer<float>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<float>::dt(int,int,const Dtype *,Dtype,Dtype,Dtype,Dtype,int,int)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(61): note: 参见“caffe::PoolingLayer<float>::dt”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<float>::reduce1dtran(Dtype *,int,Dtype *,int,int,int)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(67): note: 参见“caffe::PoolingLayer<float>::reduce1dtran”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<float>::reduce1dtran(const Dtype *,int,Dtype *,int,int,int)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(64): note: 参见“caffe::PoolingLayer<float>::reduce1dtran”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(25): note: 参见“caffe::PoolingLayer<double>::LayerSetUp”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(27): note: 参见“caffe::PoolingLayer<double>::Reshape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(41): note: 参见“caffe::PoolingLayer<double>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(43): note: 参见“caffe::PoolingLayer<double>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(45): note: 参见“caffe::PoolingLayer<double>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(47): note: 参见“caffe::PoolingLayer<double>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<double>::dt(int,int,const Dtype *,Dtype,Dtype,Dtype,Dtype,int,int)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(61): note: 参见“caffe::PoolingLayer<double>::dt”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<double>::reduce1dtran(Dtype *,int,Dtype *,int,int,int)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(67): note: 参见“caffe::PoolingLayer<double>::reduce1dtran”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(23): warning C4661: “void caffe::PoolingLayer<double>::reduce1dtran(const Dtype *,int,Dtype *,int,int,int)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/pooling_layer.hpp(64): note: 参见“caffe::PoolingLayer<double>::reduce1dtran”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(27): note: 参见“caffe::LRNLayer<float>::LayerSetUp”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(29): note: 参见“caffe::LRNLayer<float>::Reshape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(37): note: 参见“caffe::LRNLayer<float>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(39): note: 参见“caffe::LRNLayer<float>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(41): note: 参见“caffe::LRNLayer<float>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(43): note: 参见“caffe::LRNLayer<float>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<float>::CrossChannelForward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(46): note: 参见“caffe::LRNLayer<float>::CrossChannelForward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<float>::CrossChannelForward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(48): note: 参见“caffe::LRNLayer<float>::CrossChannelForward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<float>::WithinChannelForward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(50): note: 参见“caffe::LRNLayer<float>::WithinChannelForward”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<float>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(52): note: 参见“caffe::LRNLayer<float>::CrossChannelBackward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<float>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(54): note: 参见“caffe::LRNLayer<float>::CrossChannelBackward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<float>::WithinChannelBackward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(56): note: 参见“caffe::LRNLayer<float>::WithinChannelBackward”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(27): note: 参见“caffe::LRNLayer<double>::LayerSetUp”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(29): note: 参见“caffe::LRNLayer<double>::Reshape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(37): note: 参见“caffe::LRNLayer<double>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(39): note: 参见“caffe::LRNLayer<double>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(41): note: 参见“caffe::LRNLayer<double>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(43): note: 参见“caffe::LRNLayer<double>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<double>::CrossChannelForward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(46): note: 参见“caffe::LRNLayer<double>::CrossChannelForward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<double>::CrossChannelForward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(48): note: 参见“caffe::LRNLayer<double>::CrossChannelForward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<double>::WithinChannelForward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(50): note: 参见“caffe::LRNLayer<double>::WithinChannelForward”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<double>::CrossChannelBackward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(52): note: 参见“caffe::LRNLayer<double>::CrossChannelBackward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<double>::CrossChannelBackward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(54): note: 参见“caffe::LRNLayer<double>::CrossChannelBackward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(25): warning C4661: “void caffe::LRNLayer<double>::WithinChannelBackward(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/lrn_layer.hpp(56): note: 参见“caffe::LRNLayer<double>::WithinChannelBackward”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(27): warning C4661: “void caffe::SoftmaxLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/softmax_layer.hpp(22): note: 参见“caffe::SoftmaxLayer<float>::Reshape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(27): warning C4661: “void caffe::SoftmaxLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/softmax_layer.hpp(30): note: 参见“caffe::SoftmaxLayer<float>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(27): warning C4661: “void caffe::SoftmaxLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/softmax_layer.hpp(32): note: 参见“caffe::SoftmaxLayer<float>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(27): warning C4661: “void caffe::SoftmaxLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/softmax_layer.hpp(34): note: 参见“caffe::SoftmaxLayer<float>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(27): warning C4661: “void caffe::SoftmaxLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/softmax_layer.hpp(36): note: 参见“caffe::SoftmaxLayer<float>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(27): warning C4661: “void caffe::SoftmaxLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/softmax_layer.hpp(22): note: 参见“caffe::SoftmaxLayer<double>::Reshape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(27): warning C4661: “void caffe::SoftmaxLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/softmax_layer.hpp(30): note: 参见“caffe::SoftmaxLayer<double>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(27): warning C4661: “void caffe::SoftmaxLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/softmax_layer.hpp(32): note: 参见“caffe::SoftmaxLayer<double>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(27): warning C4661: “void caffe::SoftmaxLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/softmax_layer.hpp(34): note: 参见“caffe::SoftmaxLayer<double>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(27): warning C4661: “void caffe::SoftmaxLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/softmax_layer.hpp(36): note: 参见“caffe::SoftmaxLayer<double>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(29): warning C4661: “void caffe::ConcatLayer<float>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/concat_layer.hpp(21): note: 参见“caffe::ConcatLayer<float>::LayerSetUp”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(29): warning C4661: “void caffe::ConcatLayer<float>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/concat_layer.hpp(23): note: 参见“caffe::ConcatLayer<float>::Reshape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(29): warning C4661: “void caffe::ConcatLayer<float>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/concat_layer.hpp(47): note: 参见“caffe::ConcatLayer<float>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(29): warning C4661: “void caffe::ConcatLayer<float>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/concat_layer.hpp(49): note: 参见“caffe::ConcatLayer<float>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(29): warning C4661: “void caffe::ConcatLayer<float>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/concat_layer.hpp(74): note: 参见“caffe::ConcatLayer<float>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(29): warning C4661: “void caffe::ConcatLayer<float>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=float,
+              _Ty=caffe::Blob<float> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/concat_layer.hpp(76): note: 参见“caffe::ConcatLayer<float>::Backward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(29): warning C4661: “void caffe::ConcatLayer<double>::LayerSetUp(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/concat_layer.hpp(21): note: 参见“caffe::ConcatLayer<double>::LayerSetUp”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(29): warning C4661: “void caffe::ConcatLayer<double>::Reshape(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/concat_layer.hpp(23): note: 参见“caffe::ConcatLayer<double>::Reshape”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(29): warning C4661: “void caffe::ConcatLayer<double>::Forward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/concat_layer.hpp(47): note: 参见“caffe::ConcatLayer<double>::Forward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(29): warning C4661: “void caffe::ConcatLayer<double>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/concat_layer.hpp(49): note: 参见“caffe::ConcatLayer<double>::Forward_gpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(29): warning C4661: “void caffe::ConcatLayer<double>::Backward_cpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/concat_layer.hpp(74): note: 参见“caffe::ConcatLayer<double>::Backward_cpu”的声明
+d:\vs2013\questionrecognition\questionrecognition\head.h(29): warning C4661: “void caffe::ConcatLayer<double>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *,std::allocator<_Ty>> &,const std::vector<bool,std::allocator<bool>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”: 没有为显式模板实例化请求提供适当的定义
+          with
+          [
+              Dtype=double,
+              _Ty=caffe::Blob<double> *
+          ]
+  D:\caffe-windows-ms\include\caffe/layers/concat_layer.hpp(76): note: 参见“caffe::ConcatLayer<double>::Backward_gpu”的声明
+  正在生成代码
+  38 of 10378 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    55 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  questionRecognition.vcxproj -> D:\vs2013\questionRecognition\x64\Release\questionRecognition.exe
+  questionRecognition.vcxproj -> D:\vs2013\questionRecognition\x64\Release\questionRecognition.pdb (Full PDB)
